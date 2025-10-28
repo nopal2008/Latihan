@@ -1,14 +1,14 @@
 
 const button = document.getElementById("SapaButton");
 const audio = new Audio("https://cdn.pixabay.com/audio/2022/03/15/audio_0b79d6d42d.mp3");
-
+//ini buat button nya
 button.addEventListener("click", () => {
     audio.play();
     alert("Halo! Senang berkenalan denganmu ");
     document.get
 });
 
-// Particle Effect Kursor (Gaming)
+// ini untuk Effect Kursor (Gaming)
 document.addEventListener("mousemove", function(e) {
     const particle = document.createElement("div");
     particle.className = "particle";
